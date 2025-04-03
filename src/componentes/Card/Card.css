@@ -1,0 +1,14 @@
+.card{
+    width: 20%;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: azure;
+}
+
+.cabecalho-card{
+    display: flex;
+    justify-content:flex-start;
+    padding: 0 1rem;
+    gap: 2rem;
+    
+}
