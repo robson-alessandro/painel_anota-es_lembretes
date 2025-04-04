@@ -1,6 +1,7 @@
 
 .conteudo_mural {
-    
+    display: flex;
+    gap: 0.6rem;
     margin: 1rem 3rem;
     height: 75vh;
     border-radius: 10px;
