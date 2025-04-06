@@ -1,6 +1,7 @@
 import Card from '../Card';
 import './Mural.css'
 import cards from '../../db/dbcards'
+import CriarCard from '../CriarCard';
 
 const Mural = () =>{
     return(
@@ -12,6 +13,7 @@ const Mural = () =>{
                 titulo = {card.titulo} 
                 corFundo = {card.corFundo}
                 conteudo={card.conteudo}/>)}
+            <CriarCard/>
            
         </div>
         
