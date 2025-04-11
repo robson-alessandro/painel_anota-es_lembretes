@@ -1,0 +1,21 @@
+.modal-fundo {
+    width: 60%;
+    height: 60%;
+    background-color: rgba(2, 2, 2, 0.562);
+    position:absolute;
+    top: 20%;
+    left: 20%;
+    border-radius: 10px;
+    align-content: center;
+    box-shadow: 10px 5px 2px black;
+}
+
+.modal-formulario {
+    background-color: aliceblue;
+    opacity:0.9;
+    width:auto;
+    border-radius: 10px;
+    height: 95%;
+    margin: 10px;
+    align-content: center;
+}
