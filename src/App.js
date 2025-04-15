@@ -7,8 +7,7 @@ function App() {
     <div >
       <Cabecalho/>
       <Mural/>
-      <ModalCadastro aberto={false}/>
- 
+      <ModalCadastro aberto={true}/>
     </div>
   );
 }
