@@ -13,4 +13,11 @@
     gap: 2rem;
     
 }
+.paragrafo-conteudo {
+    position: relative;
+    overflow: auto;
+    max-height: 2rem;
+    
+}
+
 

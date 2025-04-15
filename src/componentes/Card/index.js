@@ -13,7 +13,7 @@ const Card =({data, titulo, conteudo, corFundo})=>{
                 <input  type='color' value={corFundoCard}  onChange={ evento => setCorFundoCard(evento.target.value)}></input>
             </div>
             
-            <p>{conteudo}</p>
+            <p className='paragrafo-conteudo'>{conteudo}</p>
         </div>
 
     )
