@@ -1,7 +1,6 @@
-const cards = 
+const cardsDb = 
 [
     {   
-        "id":1,
         "data":"20/03/25",
         "dataAviso":"30/03/25",
         "titulo":"aviso reunião",
@@ -10,7 +9,6 @@ const cards =
 
     },
     {
-        "id":2,
         "data":"25/03/25",
         "dataAviso":"",
         "corFundo": '#FFFFFF',
@@ -21,4 +19,4 @@ const cards =
 
 ]
 
-export default cards;
+export default cardsDb;
