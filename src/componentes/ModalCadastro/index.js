@@ -9,7 +9,10 @@ const ModalCadastro = ({aberto, adicionar}) => {
             <div className="modal-fundo">
                 <div className='modal-formulario'>
                     <h3>Criar anotação</h3>
-                    <form onSubmit={handleSubmit(adicionar)} className='formulario' >
+                    <form 
+                        onSubmit={handleSubmit(adicionar)} 
+                        className='formulario' >
+                            
                         <label>Data Aviso: <input type='date'  {...register('data')}></input></label>
                         <label>Cor Anotação: <input type='color' {...register('corFundo')}></input></label>
                         <label>Titulo: <input type='text' {...register('titulo')}></input></label>

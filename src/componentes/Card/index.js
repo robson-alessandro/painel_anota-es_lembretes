@@ -10,7 +10,13 @@ const Card =({data, titulo, conteudo, corFundo})=>{
             <div className='cabecalho-card'>
                 <h2>{data}</h2>
                 <h2>{titulo}</h2>
-                <input  type='color' value={corFundoCard}  onChange={ evento => setCorFundoCard(evento.target.value)}></input>
+                
+                <input  
+                    type='color' 
+                    value={corFundoCard}  
+                    onChange={evento => setCorFundoCard(evento.target.value)}>
+                    
+                </input>
             </div>
             
             <p className='paragrafo-conteudo'>{conteudo}</p>

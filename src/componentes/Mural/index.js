@@ -7,8 +7,10 @@ import ModalCadastro from '../ModalCadastro';
 
 const Mural = () =>{
     const [cards, setCards] = useState(cardsDb)
+    const [ModalAberto, setModalAberto] = useState(false)
 
     const adicionarCard = (novoCard) =>{
+        setModalAberto(!ModalAberto)
         setCards([...cards, novoCard])
     }
 
@@ -16,15 +18,18 @@ const Mural = () =>{
         <div className="conteudo_mural">
             {cards.map(card => 
             <Card 
-                key={card.titulo} 
+                key = {card.titulo} 
                 data = {card.data} 
                 titulo = {card.titulo} 
                 corFundo = {card.corFundo}
-                conteudo={card.conteudo}/>)}
-            <CriarCard/>
-            <ModalCadastro aberto={true} adicionar = {adicionarCard} />
+                conteudo = {card.conteudo}/>)}
             
-           
+            <CriarCard 
+                abrirModal = {setModalAberto}/>
+            
+            <ModalCadastro 
+                aberto = {ModalAberto} 
+                adicionar = {adicionarCard} />
         </div>
         
     )

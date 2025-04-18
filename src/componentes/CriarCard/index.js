@@ -1,11 +1,14 @@
 import './CriarCard.css'
 
-const CriarCard = ()=>{
-    function CriarCard(){
-        console.log('card criado')
-    }
+const CriarCard = ({abrirModal})=>{
+    
+
     return(
-        <button className='criar-card' onClick={CriarCard}><h2>criar card ➕ </h2></button>
+        <button 
+            className='criar-card' 
+            onClick={()=> abrirModal(true)}>
+                <h2>Criar Lembrete ➕ </h2>
+            </button>
     )
 }
 
