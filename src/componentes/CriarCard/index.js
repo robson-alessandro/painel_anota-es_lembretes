@@ -1,7 +1,6 @@
 import './CriarCard.css'
 
 const CriarCard = ({abrirModal})=>{
-    
 
     return(
         <button 

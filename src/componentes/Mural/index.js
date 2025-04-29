@@ -11,6 +11,8 @@ const Mural = () =>{
 
     const adicionarCard = (novoCard) =>{
         setModalAberto(!ModalAberto)
+        const [ano,mes,dia] = novoCard.data.split('-')
+        novoCard.data = `${dia}/${mes}/${ano}`
         setCards([...cards, novoCard])
     }
 

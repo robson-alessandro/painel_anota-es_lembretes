@@ -1,7 +1,7 @@
 const cardsDb = 
 [
     {   
-        "data":"20/03/25",
+        "data":"20/03/2025",
         "dataAviso":"30/03/25",
         "titulo":"aviso reunião",
         "corFundo":'#F0FFFF',
@@ -9,7 +9,7 @@ const cardsDb =
 
     },
     {
-        "data":"25/03/25",
+        "data":"25/03/2025",
         "dataAviso":"",
         "corFundo": '#FFFFFF',
         "titulo":"anotação react componentes",
