@@ -13,7 +13,7 @@ const ModalCadastro = ({aberto, adicionar}) => {
         return(
             <div className="modal-fundo">
                 <div className='modal-formulario'>
-                    <h3>Criar anotação</h3>
+                    <h3>Criar Lembrete</h3>
                     <form 
                         onSubmit={handleSubmit(enviarDados)} 
                         className='formulario' >
