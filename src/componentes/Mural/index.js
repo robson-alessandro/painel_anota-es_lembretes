@@ -15,6 +15,9 @@ const Mural = () =>{
         novoCard.data = `${dia}/${mes}/${ano}`
         setCards([...cards, novoCard])
     }
+    const fecharModal = ()=>{
+        setModalAberto(!ModalAberto)
+    }
 
     return(
         <div className="conteudo_mural">
@@ -30,6 +33,7 @@ const Mural = () =>{
                 abrirModal = {setModalAberto}/>
             
             <ModalCadastro 
+                fechar = {fecharModal}
                 aberto = {ModalAberto} 
                 adicionar = {adicionarCard} />
         </div>

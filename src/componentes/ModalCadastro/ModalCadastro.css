@@ -9,6 +9,23 @@
     align-content: center;
     box-shadow: 10px 5px 2px black;
 }
+.titulo-modal{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+}
+.botao-fechar{
+    display: flex;
+    justify-content: end;
+}
+
+.botao-fechar button{
+    border: none;
+    background-color: transparent;
+    font-size: 2rem;
+    
+}
+
 
 .modal-formulario {
     background-color: aliceblue;
@@ -29,5 +46,9 @@ h3{
     margin: 0 0 1rem 0;
 
 }
-
+form button{
+    border-radius: 10px;
+    width: 6rem;
+    background-color: rgba(183, 231, 183, 0.548);
+}
 
